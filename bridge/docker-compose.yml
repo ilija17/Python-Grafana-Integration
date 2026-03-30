@@ -1,6 +1,6 @@
 services:
   spotify-bridge:
-    build: .
+    build: ./bridge
     restart: unless-stopped
     ports:
       - "5005:5005"
